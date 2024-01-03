@@ -22,7 +22,7 @@ If you don't have Node.js or NVM installed, or if you need to manage multiple No
    
    `wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
    
-4. Once the script completes, close and reopen your terminal.
+4. Once the script completes, close and reopen your terminal
    or `source ~/.bashrc`
 6. Install Node.js version 18 using NVM by running:
 
