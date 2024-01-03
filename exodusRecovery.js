@@ -47,9 +47,6 @@ rl.question('Enter the recipient address: ', (recipientAddress) => {
       } catch (error) {
         console.error('Error sending transaction:', error);
       } finally {
-        if (client && client.close) {
-          
-        }
         rl.close();
         process.exit(0);
       }
