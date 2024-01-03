@@ -50,7 +50,13 @@ Run the following command to install the necessary Node.js dependencies:
 To use the script, simply run:
 
   `node exodusRecovery.js`
-  
+
+The script will ask for all the necessary details:
+
+- an address where you want the funds to send to
+- a private key
+- amount of LSK to transfer
+
 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 ### Make sure you're executing the script in a safe enviornment, your private key might get leaked. After sending the funds to a different wallet, it's best to not reuse the private key.
 ### Transfer a small amount first to check if everything is working correctly.
