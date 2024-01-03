@@ -53,7 +53,7 @@ To use the script, simply run:
 
 The script will ask for all the necessary details:
 
-- an address where you want the funds to send to
+- an address where you want the funds to be sent to
 - a private key
 - amount of LSK to transfer
 
