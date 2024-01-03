@@ -1,6 +1,6 @@
 # ExodusRecovery
 
-ExodusRecovery is a tool designed to recover funds from the Exodus wallet with provided privatekey (might work with different wallets)
+ExodusRecovery is a tool designed to recover funds from the Exodus wallet with the private key provided within the wallet (might work with different wallets)
 
 ## Prerequisites
 
