@@ -1,6 +1,6 @@
 # ExodusRecovery
 
-ExodusRecovery is a tool designed to recover funds from the Exodus wallet with the private key provided within the wallet (might work with different wallets)
+ExodusRecovery is a tool designed to provide a JSON backup file from a private key to use it as an import option in the Lisk Desktop Wallet
 
 ## Prerequisites
 
@@ -54,7 +54,7 @@ To use the script, simply run:
 The script will ask for all the necessary details:
 
 - a private key
-- a password of your chosing for the privatekey encryption
+- a password of your chosing for the private key encryption
 
 Copy the JSON output and paste it in the Lisk Desktop Wallet when importing the account
 
