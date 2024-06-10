@@ -1,10 +1,8 @@
 {
   "name": "exodusrecovery",
   "version": "1.0.0",
-  "description": "Tool for sending funds using a privatekey provided by Exodus wallet",
+  "description": "Tool for creating backup JSON for the Lisk Desktop from a private key",
   "main": "exodusRecovery.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "przemer",
   "license": "ISC",
@@ -12,7 +10,7 @@
     "node": "18.x"
   },
   "dependencies": {
-    "@liskhq/lisk-client": "^6.1.0",
+    "@liskhq/lisk-cryptography": "^4.4.0",
     "tweetnacl": "^1.0.3"
   }
 }

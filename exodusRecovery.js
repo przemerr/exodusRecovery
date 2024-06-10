@@ -1,4 +1,4 @@
-const { cryptography } = require('@liskhq/lisk-client');
+const  cryptography  = require('@liskhq/lisk-cryptography');
 const readline = require('readline');
 const nacl = require('tweetnacl');
 
