@@ -1,4 +1,4 @@
-const  cryptography  = require('@liskhq/lisk-cryptography');
+const cryptography = require('@liskhq/lisk-cryptography');
 const readline = require('readline');
 const nacl = require('tweetnacl');
 
@@ -60,8 +60,11 @@ rl.question('Enter your private key (hex format): ', (privateKeyHex) => {
     } catch (error) {
       console.error('Error:', error);
     } finally {
-      rl.close();
-      process.exit(0);
+      rl.question('Press Enter to exit...', () => {
+        rl.close();
+        process.exit(0);
+      });
     }
   });
 });
+
