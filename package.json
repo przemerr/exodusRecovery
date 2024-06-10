@@ -4,6 +4,9 @@
   "description": "Tool for creating backup JSON for the Lisk Desktop from a private key",
   "main": "exodusRecovery.js",
   },
+  "bin": {
+    "exodusRecovery": "./exodusRecovery.js"
+  },
   "author": "przemer",
   "license": "ISC",
   "engines": {
