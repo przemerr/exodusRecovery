@@ -57,6 +57,7 @@ The script will ask for all the necessary details:
 - a password of your chosing for the private key encryption
 
 Copy the JSON output and paste it in the Lisk Desktop Wallet when importing the account
+![exodusImport](https://github.com/przemerr/exodusRecovery/assets/25085095/50ab1a51-9f40-4b34-9fa2-6daf97a34add)
 
 ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 ### Make sure you're executing the script in a safe enviornment, your private key might get leaked. After importing the account, it's best to transfer the funds from the account, it's best to not reuse the private key.
